@@ -1,1 +1,1 @@
-https://github.com/EvgeniiKhokhlov/ono-tebe-nado/tree/main
+https://github.com/EvgeniiKhokhlov/ono-tebe-nado-fd
