@@ -1,14 +1,14 @@
 .header {
   margin: 0;
-  height: 294px;
-  padding: 100px 50px;
+  min-height: 293px;
+  padding: 97px 50px;
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
 }
 
 .header_menu {
-  margin-top: 6px;
+  margin-top: 11px;
   display: flex;
   flex-direction: row;
   gap: 26.9px;
@@ -28,7 +28,8 @@
 }
 
 .header_logo {
-  margin-top: 9px;
+  margin-top: 10px;
+
   margin-left: 2px;
   display: flex;
   flex-direction: column;
@@ -49,14 +50,13 @@
 }
 
 .header_address {
-  margin-top: 8.5px;
+  margin-top: 12px;
   margin-right: 36.5px;
 }
 
 .cover {
   position: relative;
-  height: 757px;
-  margin-top: 15px;
+  min-height: 757px;
   margin-bottom: 180px;
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
@@ -76,18 +76,16 @@
 
 .cover_content {
   margin: 0;
-  position: absolute;
-  z-index: 2;
+  
 }
 
 .cover_title {
   margin: 0;
   width: 1000px;
-  padding: 159px 50px 106px;
+  padding: 159px 50px 86px;
 }
 
 .accent_span {
-  margin: 0;
   margin-top: 6px;
   display: block;
   font-size: 100px;
@@ -112,35 +110,34 @@
 
 .description {
   margin: 0;
-  height: 51px;
+  min-height: 51px;
   display: flex;
   padding-left: 50px;
 }
 
 .description_span {
-  margin-right: 105px;
+  margin-top: 20px;
+  margin-right: 107px;
   font-size: 22px;
   line-height: 12px;
-  word-spacing: 1.38ch;
+  word-spacing: 1.376ch;
   text-transform: uppercase;
 }
 
 .description_button {
   display: flex;
-  margin-bottom: 40px;
   justify-content: center;
-  align-self: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  width: 257px;
-  height: auto;
+  padding-top: 11.5px;
+  padding-right: 7.5px;
+  padding-bottom: 11.5px;
+  width: 256px;
   background: none;
   font-family: Raleway, sans-serif;
   font-size: 22px;
   line-height: 26px;
   color: #fff;
   text-transform: uppercase;
-  border: 1px solid currentColorж
+  border: 1px solid currentColor;
 }
 
 .lots {
@@ -173,7 +170,6 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: 165% 100%;
-
 }
 
 .card_link {
@@ -204,7 +200,6 @@
 
 .card_type_book {
   background-image: url(../images/card-lot-02.jpg);
-  
 }
 
 .card_type_picture {
